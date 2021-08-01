@@ -1,3 +1,4 @@
 # ApoyaTec
 
-Aplicación web de cursos online hechos por los estudiantes del Instituto Tecnologico Superior de Teziutlán para la misma comunidad estudiantil
+Aplicación web de cursos online basado en la teoria del aprendizaje entre pares.
+> Cursos hechos por la comunidad de estudiantes de México para estudiantes.

@@ -1,0 +1,17 @@
+#btnCursos, #btnUsuarios{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.imgVideo{
+    width: 320px;
+    height: 320px;
+}
+
+.lblUsuario{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-left: 75px;
+}

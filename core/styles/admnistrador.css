@@ -1,0 +1,316 @@
+.imagen {
+  width: 200px;
+  height: 60px;
+  padding-left: 20px;
+}
+
+.navbar {
+  background-color: rgb(51, 51, 51);
+}
+
+.nav-link {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 450px;
+}
+
+li {
+  float: left;
+  padding: 0 4px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#btn-navbar {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#lista {
+  margin-top: 35px;
+}
+
+#categorias {
+  font-size: 33px;
+  margin-right: 20px;
+}
+
+i {
+  font-size: 20px;
+}
+
+.container1 {
+  padding-left: 10px;
+  width: 450px;
+  height: 70px;
+  border: 2px solid;
+  margin-left: 115px;
+}
+
+.container3{
+  height: 350px;
+  border: 3px solid #333333;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+#rol {
+  margin-top: 20px;
+  width: 100px;
+  margin-left: 450px;
+}
+
+#nombre {
+  margin-left: 20px;
+}
+
+.numberId {
+  float: right;
+  margin-right: 35px;
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#imagenMap {
+  width: 20px;
+  height: 10px;
+  margin-left: 850px;
+}
+
+
+.check1 {
+  align-items: center;
+  margin-left: 30px;
+}
+
+#frase {
+  margin-left: 170px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+#rolUsuario {
+  margin-left: 25px;
+}
+
+.tagsNivel {
+  margin-top: 30px;
+  margin-left: 160px;
+  margin-right: 10px;
+}
+
+
+.tags1{
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+#txtNombreCurso,
+#txtDescripcion,
+#txtAEsperados,
+#txtCPNecesarios {
+  margin-left: 165px;
+  width: 400px;
+}
+
+#txtNivel,
+#txtFecha {
+  margin-top: 30px;
+  width: 90px;
+  height: 30px;
+}
+
+#btnCurso {
+  margin-left: 260px;
+}
+
+.fileInput1,
+.fileInput2 {
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+#cmbCategoria {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+#lblCategoria {
+  margin-left: 150px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: black solid;
+}
+
+.ladoDerecho {
+  margin-left: 150px;
+}
+
+#input-search {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+.content-search {
+  width: 250px;
+  left: 0;
+  background: rgba(139, 138, 138, 0.959);
+  display: none;
+}
+
+.content-table {
+  height: auto;
+  background: rgba(146, 146, 146, 0.952);
+  margin-left: 10px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.content-table table {
+  width: 100%;
+}
+
+tbody tr td a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+tbody tr td a:hover {
+  background: rgba(223, 219, 219, 0.897);
+}
+
+#table_length,
+#table_filter,
+#table_info,
+#table_paginate {
+  display: none;
+}
+
+.validacionNombreT,
+.validacionNombreF {
+  margin-left: 170px;
+}
+.validacionNombreF {
+  color: red;
+}
+
+#exTab1 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+#exTab2 h3 {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+#imgLogoDelete {
+  margin-top: 40px;
+}
+
+#divCrear{
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+
+.drop-zone {
+  height: 200px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+#txtCorreo, #txtAbout{
+  width: 405px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#txtAbout{
+  height: 80px;
+  max-height: 100px;
+  min-height: 50px;
+}
+
+#tipRol{
+  width: 200px;
+}
+
